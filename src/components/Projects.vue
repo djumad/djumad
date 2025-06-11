@@ -40,29 +40,29 @@
 <script setup>
 import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
-import project3 from '../assets/project3.png'
+import project3 from '../assets/baguala.png'
 
 const projects = [
   {
     title: 'Sistem Informasi Astekindo Maluku',
-    description: 'Aplikasi e-commerce dengan Vue.js dan Firebase',
+    description: 'Aplikasi Sistem Informasi LSP Astekindo Maluku menggunakan',
     technologies: ['Vue.js', 'Tailwind CSS', 'Pocketbase'],
     image: project1,
     link: 'https://astekindomaluku.vercel.app'
   },
   {
     title: 'Sistem Informasi Negeri Kaibobo',
-    description: 'Dashboard admin dengan Vue.js dan Chart.js',
+    description: 'Aplikasi Sistem Informasi Negeri Kaibobo dengan menggunakan laravel, filament dan livewire',
     technologies: ['laravel', 'bootstrap', 'livewire' , 'jquery' , 'filament'],
     image: project2,
-    link: '#'
+    link: 'https://negerikaibobo.id/'
   },
   {
-    title: 'Portofolio Kreatif',
-    description: 'Portofolio untuk fotografer profesional',
-    technologies: ['Vue.js', 'Tailwind CSS' , 'laravel'],
+    title: 'Baguala Techno',
+    description: 'Website Company Profile Baguala Techno',
+    technologies: ['livewire', 'Tailwind CSS' , 'laravel'],
     image: project3,
-    link: 'https://it-polnam.vercel.app'
+    link: 'https://bagualatechno.com/'
   }
 ]
 </script>
